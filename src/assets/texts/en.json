@@ -1,0 +1,72 @@
+{
+  "nav": [
+    {
+      "name": "Dołącz",
+      "link": "https://discord.gg/Uy4t2n6zzu"
+    },
+    {
+      "name": "Projekty",
+      "link": "/projects"
+    },
+    {
+      "name": "O nas",
+      "link": "/about"
+    }
+  ],
+  "home": {
+    "meta": {
+      "title": "KN init",
+      "description": "Jesteśmy grupą studentów informatyki, którzy pragną rozwijać swoje umiejętności, zdobywać doświadczenie i dobrze się bawić! Dołącz do nas i pomóż nam rozwijać Koło Naukowe init!"
+    },
+    "banner": {
+      "title": "Koło Naukowe init",
+      "text": "Jesteśmy organizacją zrzeszającą <b>studentów informatyki</b>, którzy pragną rozwijać swoje umiejętności, zdobywać doświadczenie i, przede wszystkim, dobrze się bawić! Działamy w ramach <b>Wydziału Zastosowań Informatyki i Matematyki na SGGW.</b>"
+    },
+    "about": {
+      "title": "Czym się zajmujemy?",
+      "text": "Zajmujemy się szeroko rozumianą popularyzacją nauki. A konkretnie? Konkretnie <b>organizujemy eventy dla programistów.</b> Naszym głównym projektem jest seria hackathonu <b>HackArena.</b> W planach mamy także zorganizowanie Game Jamu i wiele innych inicjatyw! Brzmi ciekawie?",
+      "button": "Sprawdź"
+    },
+    "structure": {
+      "title": "Zainteresowało Cię to co robimy?",
+      "description": "Jeżeli interesuje Cię pomoc w organizacji eventów, chcesz poznać nowe osoby i dobrze się bawić - dołącz do nas i <b>pomóż nam rozwijać Koło Naukowe init!</b>",
+      "teams": [
+        {
+          "title": "Tech",
+          "description": "Zespół tech zajmuje się rozwijaniem oprogramowania potrzebnego do przeprowadzenia eventów. Obejmuje to zarówno <b>tworzenie gier, stron internetowych, aplikacji i wiele innych.</b> Jeżeli twoją pasją jest programowanie Tech to miejsce dla Ciebie!"
+        },
+        {
+          "title": "Org",
+          "description": "Jeżeli czujesz że organizowanie i ogarnianie rzeczywistości to twoja silna strona dołącz do zespołu Org. W tym zespole <b>będziesz zajmował się kontaktem ze sponsorami, organizowaniem rzeczy bieżących i znajdziesz się w centrum akcji</b> w trakcie eventów!"
+        },
+        {
+          "title": "Mark",
+          "description": "Ten zespół zajmuje się szeroko pojętym marketingiem. Oprócz <b>zarządzania naszymi profilami na Instagramie, Facebooku i LinkedInie,</b> członkowie tego zespołu odpowiedzialni są <b>promowanie eventów</b> czy tworzenie treści na strony internetowe!"
+        },
+        {
+          "title": "Graf",
+          "description": "Najbardziej kreatywna i uzdolniona artystycznie część naszego koła! Zespół ten odpowiedzialny jest za <b>tworzenie grafik do postów, plakatów, ulotek czy na strony.</b> Jeżeli masz artystyczną duszę i umiejętności dołącz do naszego zespołu grafików!"
+        }
+      ]
+    },
+    "joinUs": {
+      "text": "Zajrzyj na nasz serwer na Discordzie i dołącz do jednego z zespołów!"
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Projekty | KN init",
+      "description": "Zobacz nasze projekty!"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "O nas | KN init",
+      "description": "Dowiedz się więcej o nas!"
+    }
+  },
+  "bottomBar": {
+    "socials": "Wpadnij na nasze social media!",
+    "copyrights": "© {0} KN init. Wszystkie prawa zastrzeżone."
+  }
+}

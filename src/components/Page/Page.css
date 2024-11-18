@@ -1,0 +1,19 @@
+.page-container--padding-top {
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container--padding-top {
+    padding-top: 3rem;
+  }
+}
+
+.page-container--padding-bottom {
+  padding-bottom: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    margin-top: calc(var(--topbar_height) + var(--topbar_wrapper-padding) * 2);
+  }
+}

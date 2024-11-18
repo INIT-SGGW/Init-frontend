@@ -1,0 +1,161 @@
+:root {
+  /* COLORS */
+  --bg-color: #fff;
+  --bg-secondary-color: #eee;
+  --primary-color: #daff00;
+  --secondary-color: #000;
+  --accent-color: #d5d9da;
+
+  /* SCREEN SIZES */
+  --mobile: 492px;
+  --tablet: 768px;
+  --laptop: 1024px;
+  --desktop: 1440px;
+
+  --page-width: min(100%, 1300px);
+  --hover-transition-time: 0.15s;
+
+  --letter-spacing: 0.1em;
+}
+
+/* TEXT SIZES */
+@media (min-width: 0) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 492px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+* {
+  font-family: "Montserrat", "Poppins", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-one-color);
+}
+
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+  background-color: rgb(194, 194, 194);
+  color: rgb(var(--background-color)) !important;
+  padding: 0.05rem 0.5rem;
+  border-radius: 5px;
+  /* color: var(--text-one-color); */
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.not-clickable {
+  pointer-events: none;
+  cursor: default;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+/* HEADERS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  color: var(--text-one-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.pagewidth {
+  max-width: var(--page-width);
+  padding: 0 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+.text-with-arrow {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  gap: 0.7ch;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.text-with-arrow__icon {
+  height: 1.2ch;
+}

@@ -1,0 +1,40 @@
+.projects {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 75vh;
+}
+
+.projects__project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  padding: 0 2rem;
+  flex: 1;
+  transition: all 0.3s ease-out;
+  min-width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects__project:nth-child(2) {
+  background-color: var(--bg-secondary-color);
+}
+
+.projects__project:hover {
+  flex: 2;
+}
+
+.projects__project > h4 {
+  text-align: center;
+  text-wrap: nowrap;
+}
+
+.projects__project > p {
+  text-align: center;
+  max-width: 400px;
+}
