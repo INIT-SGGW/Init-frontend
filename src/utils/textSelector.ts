@@ -43,7 +43,29 @@ interface Text {
         }
     },
     projects: Page & {},
-    about: Page & {},
+    about: Page & {
+        title: string,
+        description: string,
+        contact: {
+            title: string,
+            description: string
+        },
+        team: {
+            title: string,
+            members: {
+                name: string,
+                photo: string,
+                position: string,
+                team: string,
+                profiles: {
+                    linkedin?: string,
+                    instagram?: string,
+                    facebook?: string,
+                    mail?: string
+                }
+            }[]
+        }
+    },
     bottomBar: {
         socials: string,
         copyrights: string

@@ -63,6 +63,56 @@
     "meta": {
       "title": "O nas | KN init",
       "description": "Dowiedz się więcej o nas!"
+    },
+    "title": "KN init",
+    "description": "Jesteśmy grupą studentów informatyki, którzy pragną rozwijać swoje umiejętności, zdobywać doświadczenie i dobrze się bawić! Dołącz do nas i pomóż nam rozwijać Koło Naukowe init!",
+    "contact": {
+      "title": "Kontakt",
+      "description": "Skontatuj się z nami"
+    },
+    "team": {
+      "title": "Nasz zespół",
+      "members": [
+        {
+          "name": "Dominik Kubicki",
+          "position": "Współzałożyciel",
+          "team": "Graf",
+          "photo": "/src/assets/hackarena-bg.jpg",
+          "profiles": {
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com",
+            "mail": "domi19kub@gmail.com",
+            "instagram": "https://www.instagram.com"
+          }
+        },
+        {
+          "name": "Dominik Kubicki",
+          "position": "Współzałożyciel",
+          "team": "Graf",
+          "photo": "/src/assets/hackarena-bg.jpg",
+          "profiles": {
+            "linkedin": "adf"
+          }
+        },
+        {
+          "name": "Dominik Kubicki",
+          "position": "Współzałożyciel",
+          "team": "Graf",
+          "photo": "/src/assets/hackarena-bg.jpg",
+          "profiles": {
+            "linkedin": "adf"
+          }
+        },
+        {
+          "name": "Dominik Kubicki",
+          "position": "Współzałożyciel",
+          "team": "Graf",
+          "photo": "/src/assets/hackarena-bg.jpg",
+          "profiles": {
+            "linkedin": "adf"
+          }
+        }
+      ]
     }
   },
   "bottomBar": {

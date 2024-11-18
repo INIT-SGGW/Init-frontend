@@ -11,9 +11,11 @@ function ProjectsPage() {
             <div className='projects'>
                 {
                     projectsData.map((project, index) => (
-                        <a key={index} href={project.href} className='projects__project' style={{ backgroundImage: `url(${project.image})` }}>
-                            <h4>{project.title}</h4>
-                            <p>{project.description}</p>
+                        <a key={index} href={project.href} className='projects__project' >
+                            <div>
+                                <h4>{project.title}</h4>
+                                <p>{project.description}</p>
+                            </div>
                         </a>
                     ))
                 }
