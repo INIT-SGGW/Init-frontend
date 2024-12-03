@@ -67,7 +67,7 @@ function Page({ children, pageTitle, description, paddingTop = true, noIndex = f
 
     return (
         <div
-            className={`${paddingBottom ? ' page-container--padding-bottom' : ""}`}
+            className={`page ${paddingBottom ? ' page-container--padding-bottom' : ""}`}
             style={{ paddingTop: `${paddingTop ? topPadding : 0}px` }}
         >
             {children}

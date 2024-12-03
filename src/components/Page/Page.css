@@ -1,3 +1,8 @@
+.page {
+  flex: 1;
+  display: flex;
+}
+
 .page-container--padding-top {
   padding-top: 4rem;
 }

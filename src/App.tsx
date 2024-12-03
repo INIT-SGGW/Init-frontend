@@ -70,9 +70,14 @@ const TopBar = () => {
   return (
     <div className='topbar__wrapper' ref={TopBarRef} id="topbar">
       <div className='topbar pagewidth' >
-        <Link to='/' style={{ zIndex: 2 }} onClick={() => setIsMobileMenuOpen(false)}>
-          <img className='topbar__logo' src="/init.svg" alt="KN init" />
-        </Link>
+        <div className='topbar__logos'>
+          <Link to='/' style={{ zIndex: 2 }} onClick={() => setIsMobileMenuOpen(false)}>
+            <img src="/init.svg" alt="KN init" />
+          </Link>
+          <Link to='https://sggw.edu.pl' target='_blank' style={{ zIndex: 2 }} onClick={() => setIsMobileMenuOpen(false)}>
+            <img src={SGGWLogoBlackIcon} alt="SGGW" />
+          </Link>
+        </div>
         <div className='topbar__nav' ref={TopBarNavRef}>
           {isMobileMenu ? (
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

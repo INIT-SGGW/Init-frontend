@@ -1,4 +1,4 @@
-.projects {
+/* .projects {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -80,4 +80,54 @@
 .projects__project>div>p {
   color: var(--bg-color);
   text-align: center;
+} */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projects__project {
+  --project-transition: 0.2s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 250px;
+  width: 100%;
+  transition: all var(--project-transition);
+  overflow: hidden;
+}
+
+.projects__project::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+  background-position: center;
+  /* background-image: url("../../assets/gamejam-bg.jpg"); */
+  z-index: -1;
+  filter: saturate(0%) brightness(0.7);
+  transition: all var(--project-transition);
+}
+
+@media screen and (min-width: 550px) {
+  .projects__project:hover::after {
+    transform: scale(1.1) translateX(-45%);
+  }
+}
+
+.projects__project > h2 {
+  text-align: center;
+  text-wrap: nowrap;
+  font-size: 3rem;
 }

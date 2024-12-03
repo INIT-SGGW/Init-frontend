@@ -12,10 +12,16 @@
   --laptop: 1024px;
   --desktop: 1440px;
 
-  --page-width: min(100%, 1300px);
+  --page-width: min(100%, 1900px);
   --hover-transition-time: 0.15s;
 
-  --letter-spacing: 0.1em;
+  --letter-spacing: 0.2em;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* TEXT SIZES */
@@ -155,7 +161,13 @@ p {
 
 .pagewidth {
   max-width: var(--page-width);
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .pagewidth {
+    padding: 0 1.5rem;
+  }
 }

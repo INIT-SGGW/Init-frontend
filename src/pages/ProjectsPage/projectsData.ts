@@ -1,22 +1,18 @@
 const projectsData = [
     {
         title: "GameJam",
-        href: "projects/gamejam",
+        href: "projekty/gamejam",
         image: "/src/assets/gamejam-bg.jpg",
-        description: "GameJam dfa asdf sadf asd fsad description",
     },
     {
         title: "HackArena",
-        href: "projects/hackarena",
-        image: "/src/assets/hackarena-bg.jpg",
-        description: "Hackathon adsf as df asdf asd fdescription",
+        href: "projekty/hackarena",
+        image: "url('/src/assets/gamejam-bg.jpg')",
     },
     {
-        title: "Semester of Code",
-        href: "projects/soc",
-
+        title: "Init Coding Challenge",
+        href: "projekty/icc",
         image: "/src/assets/gamejam-bg.jpg",
-        description: "Workshopssad fasd fas dfas df sddescription",
     },
 ]
 

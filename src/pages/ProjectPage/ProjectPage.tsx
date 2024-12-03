@@ -1,6 +1,6 @@
+import "./ProjectPage.css";
+
 import Section from '../../components/Section/Section'
-import './HomePage.css'
-import HomeBgImage from '../../assets/home-bg.svg'
 import HomeBgMobileImage from "../../assets/home-bg-mobile.svg";
 import { useEffect, useState } from 'react';
 import useIsMobile from '../../hooks/useIsMobile';
@@ -13,8 +13,16 @@ import DiscordIcon from '../../assets/discord-icon.svg';
 import Page from '../../components/Page/Page';
 import StarOneIcon from '../../assets/star_1.svg';
 import StarTwoIcon from '../../assets/star_2.svg';
+import { useParams } from "react-router-dom";
 
-function HomePage() {
+function ProjectPage() {
+    const { projectName } = useParams();
+
+    if (!projectName) {
+        return null;
+    }
+
+    const pageT = textSelector().projects[projectName];
     const pageText = textSelector().home;
     const [topPadding, setTopPadding] = useState(0);
     const isMobile = useIsMobile();
@@ -36,7 +44,7 @@ function HomePage() {
                         <img src={StarTwoIcon} alt="star" className='bg__star2' />
                     </div>}
                     {isMobile && <img className='home__banner_bg' src={HomeBgMobileImage} alt="BG image" />}
-                    <div className='home__banner_text'>
+                    <div className='home__banner_text project__banner'>
                         <h1>{pageText.banner.title}</h1>
                         <p dangerouslySetInnerHTML={{ __html: pageText.banner.text }} />
                     </div>
@@ -81,4 +89,4 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default ProjectPage

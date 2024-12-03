@@ -6,7 +6,7 @@ Respository for KN "init" website.
 
 Install all dependencies.
 
-### `npm run bev`
+### `npm run dev`
 
 Run locally on port 3000
 

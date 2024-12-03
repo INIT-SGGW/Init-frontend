@@ -6,7 +6,7 @@
     },
     {
       "name": "Projekty",
-      "link": "/projects"
+      "link": "/projekty"
     },
     {
       "name": "O nas",
@@ -53,7 +53,7 @@
       "text": "Zajrzyj na nasz serwer na Discordzie i dołącz do jednego z zespołów!"
     }
   },
-  "projects": {
+  "projectsList": {
     "meta": {
       "title": "Projekty | KN init",
       "description": "Zobacz nasze projekty!"
@@ -65,54 +65,27 @@
       "description": "Dowiedz się więcej o nas!"
     },
     "title": "KN init",
-    "description": "Jesteśmy grupą studentów informatyki, którzy pragną rozwijać swoje umiejętności, zdobywać doświadczenie i dobrze się bawić! Dołącz do nas i pomóż nam rozwijać Koło Naukowe init!",
+    "description": "Jesteśmy grupą pasjonatów informatyki z Wydziału Zastosowań Informatyki i Matematyki SGGW, którzy łączą naukę, praktykę i dobrą zabawę! Nasze koło naukowe to przestrzeń do rozwijania umiejętności, zdobywania doświadczenia i realizowania ambitnych pomysłów. Obecnie prowadzimy trzy główne projekty: HackaArna, HackArena GameJam oraz Init Coding Challenge (szczegóły znajdziesz w zakładce „Projekty”). W planach mamy także nowe inicjatywy, takie jak HackArena AI, HackArena Robotics czy stworzenie akademickiej ligi esportowej. Dołącz do nas i twórz przyszłość technologii!",
     "contact": {
       "title": "Kontakt",
-      "description": "Skontatuj się z nami"
+      "description": "Masz pytania, sugestie, bądź chciałbyś nawiązać z nami współpracę? Napisz do nas na maila"
     },
     "team": {
-      "title": "Nasz zespół",
-      "members": [
-        {
-          "name": "Dominik Kubicki",
-          "position": "Współzałożyciel",
-          "team": "Graf",
-          "photo": "/src/assets/hackarena-bg.jpg",
-          "profiles": {
-            "linkedin": "https://www.linkedin.com",
-            "facebook": "https://www.facebook.com",
-            "mail": "domi19kub@gmail.com",
-            "instagram": "https://www.instagram.com"
-          }
-        },
-        {
-          "name": "Dominik Kubicki",
-          "position": "Współzałożyciel",
-          "team": "Graf",
-          "photo": "/src/assets/hackarena-bg.jpg",
-          "profiles": {
-            "linkedin": "adf"
-          }
-        },
-        {
-          "name": "Dominik Kubicki",
-          "position": "Współzałożyciel",
-          "team": "Graf",
-          "photo": "/src/assets/hackarena-bg.jpg",
-          "profiles": {
-            "linkedin": "adf"
-          }
-        },
-        {
-          "name": "Dominik Kubicki",
-          "position": "Współzałożyciel",
-          "team": "Graf",
-          "photo": "/src/assets/hackarena-bg.jpg",
-          "profiles": {
-            "linkedin": "adf"
-          }
-        }
-      ]
+      "title": "Nasz zespół"
+    }
+  },
+  "projects": {
+    "gamejam": {
+      "title": "HackArena GameJam",
+      "shortDescription": "HackArena GameJam to wydarzenie, podczas którego uczestnicy mają za zadanie stworzyć grę w ciągu 48 godzin. Wydarzenie skierowane jest zarówno do początkujących, jak i doświadczonych programistów, grafików i muzyków. W trakcie GameJamu uczestnicy mają okazję zdobyć doświadczenie, poznać nowych ludzi i przede wszystkim dobrze się bawić!"
+    },
+    "hackarena": {
+      "title": "HackArena",
+      "shortDescription": "HackArena to cykl hackathonów organizowanych przez Koło Naukowe init. Podczas hackathonów uczestnicy mają za zadanie stworzyć projekt zgodnie z wybranym tematem w ciągu 24 godzin. Wydarzenie skierowane jest zarówno do początkujących, jak i doświadczonych programistów, grafików i osób zainteresowanych technologią. W trakcie hackathonów uczestnicy mają okazję zdobyć doświadczenie, poznać nowych ludzi i przede wszystkim dobrze się bawić!"
+    },
+    "Init Coding Challenge": {
+      "title": "Init Coding Challenge",
+      "shortDescription": "Init Coding Challenge to cykl wyzwań programistycznych organizowanych przez Koło Naukowe init. Podczas wyzwań uczestnicy mają za zadanie rozwiązać zadanie programistyczne w ciągu 48 godzin. Wydarzenie skierowane jest zarówno do początkujących, jak i doświadczonych programistów. W trakcie wyzwań uczestnicy mają okazję zdobyć doświadczenie, poznać nowych ludzi i przede wszystkim dobrze się bawić!"
     }
   },
   "bottomBar": {

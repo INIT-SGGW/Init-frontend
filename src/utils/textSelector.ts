@@ -42,7 +42,13 @@ interface Text {
             text: string
         }
     },
-    projects: Page & {},
+    projectsList: Page & {},
+    projects: Page & {
+        [key: string]: {
+            title: string,
+            shortDescription: string
+        }
+    },
     about: Page & {
         title: string,
         description: string,
