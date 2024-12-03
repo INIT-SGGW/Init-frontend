@@ -91,5 +91,17 @@
   "bottomBar": {
     "socials": "Wpadnij na nasze social media!",
     "copyrights": "© {0} KN init. Wszystkie prawa zastrzeżone."
+  },
+  "notFound": {
+    "meta": {
+      "title": "404 | KN init",
+      "description": "Strona niedostępna"
+    },
+    "title": "Strona niedostępna",
+    "description": "Strona, którą próbujesz otworzyć, nie istnieje",
+    "buttons": {
+      "goBack": "Powrót",
+      "home": "Strona główna"
+    }
   }
 }

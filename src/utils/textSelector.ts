@@ -75,7 +75,15 @@ interface Text {
     bottomBar: {
         socials: string,
         copyrights: string
+    },
+    notFound: Page && {
+    title: Strona niedostępna,
+    description: Strona, którą próbujesz otworzyć, nie istnieje,
+    buttons: {
+      goBack: Powrót,
+      home: Strona główna
     }
+  }
 }
 
 function textSelector() {
